@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>卢圣勤的简历</title>
+    <link rel="stylesheet" href="loading.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="main.js"></script> -->
+    <script>
+        setTimeout(function () {
+            siteWelcome.classList.remove('active');
+        }, 100)
+
+        window.onscroll = function (xxx) {
+            if (window.scrollY > 0) {
+                topNavBar.classList.add('sticky')
+            } else {
+                topNavBar.classList.remove('sticky')
+            }
+        }
+
+        
+    //    //定位
+    //     let aTags = document.querySelectorAll('nav>ul>li>a')
+    //     function animate(time) {
+    //         requestAnimationFrame(animate);
+    //         TWEEN.update(time);
+    //     }
+    //     requestAnimationFrame(animate);
+    let aTags = document.querySelectorAll('nav>ul>li>a');
+    console.log(aTags);
+
+    </script>
+
+</head>
+<body>
+    <!-- <div class="BJNavBar"> -->
+        <div id="siteWelcome" class="site-welcome active">
+            <div class="loading"></div>
+        </div>
+        
+        <div id="topNavBar" class="NavBar clearfix sticky">
+            <div class="logo">
+                <span>LSQ简历</span>
+            </div>
+            <nav class="menu">
+                <ul class="clearfix">
+                    <li>
+                        <a class="liajie" href="#setAbout">关于我</a>
+                    </li>
+                    <li>
+                        <a class="liajie" href="https://www.jianshu.com/p/2a2e3c56ebee">我的博客</a>
+                    </li>
+                    <li>
+                        <a class="liajie" href="#setWorks">作品集</a>
+                    </li>
+                    <li>
+                        <a class="liajie" href="#setTechnology">技术掌握</a>
+                    </li>
+                    <li>
+                        <a class="liajie" href="#setContact">联系我</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="banner">
+            <div class="bj"></div>
+        </div>
+        <main>
+			<div data-x id="setAbout" class="mainI">
+				<div class="introduce clearfix">
+					<div class="HeadP">
+						<img src="imgaes/avatar.jpg" alt="" width="299" height="347"/>
+					</div>
+					<div class="name">
+						<span class="hello">初级web前端开发工程师
+							<span class="triangle"></span>
+						</span>
+						<h1>卢圣勤</h1>
+						<p>技能 熟悉html5+css3 了解js,jQuery </p>
+					
+						<dl>
+							<dt>年龄</dt>
+							<dd>28</dd>
+							<dt>所在城市</dt>
+							<dd>上海</dd>
+							<dt>邮箱</dt>
+							<dd>2015941587@qq.com</dd>
+							<dt>手机</dt>
+							<dd>11185318623</dd>
+							<dt>微信</dt>
+							<dd>11185318623</dd>
+						</dl>
+					</div>
+				</div>
+				<footer  class="media ">
+					<p class="pushButton">
+                        <a href="https://www.jianshu.com/p/2a2e3c56ebee" target="_blank" >我的博客</a>  
+                        <a href="ui作品集.pdf" target="_blank" download>下载PDF简历</a>
+                    </p>
+                    
+				</footer>
+			</div>
+        </main>
+        <section id="setWorks">
+            <h2>我的作品</h2>
+            <div  class="works">
+                    <a href="/一个简单的js/index.html" target="_blank">
+                        <div class="col-md-4 services-grids wow zoomIn animated jianpan" data-wow-delay=".5s">
+                            <div class="flip-effect right mask">
+                                <div class="text-box">
+                                    <h5>实用的导航键盘 </h5>
+                                    <p class="w-text">键盘介绍 </p>
+                                </div>
+                                <div class="info-box">
+                                    <div class="info-content">
+                                        <h3>导航键盘</h3>
+                                        <p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi
+                                            hic quasi enim.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/canvas/index.html" target="_blank">
+                        <div class="col-md-4 services-grids wow zoomIn animated canvas" data-wow-delay=".5s">
+                            <div class="flip-effect right mask">
+                                <div class="text-box">
+                        
+                                    <h5>我的canvas画板</h5>
+                                    <p class="w-text">详情介绍</p>
+                                </div>
+                                <div class="info-box">
+                                    <div class="info-content">
+                                        <h3>canvas画板</h3>
+                                        <p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi
+                                            hic
+                                            quasi enim.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/Pikachu/MovingPikachu/index.html" target="_blank">
+                        <div class="col-md-4 services-grids wow zoomIn animated pikaqiu" data-wow-delay=".5s">
+                            <div class="flip-effect right mask">
+                                <div class="text-box">
+                                    <h5>画一只会动的皮卡丘</h5>
+                                    <p class="w-text">点击查看</p>
+                                </div>
+                                <div class="info-box">
+                                    <div class="info-content">
+                                        <h3>css画皮卡丘</h3>
+                                        <p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi
+                                            hic
+                                            quasi enim.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+		        <div class="clearfix"> </div>
+	        </div>
+        </section>
+
+        <section id="setTechnology">
+            <h2>技术掌握</h2>
+            <div class="works2">
+                <div classetWorkss="team-row">
+                    <div class="col-md-3 team-grids wow fadeInUp animated" data-wow-delay=".5s">
+                        <h5>html5+css3</h5>
+                        <p><br>熟悉DIV+CSS布局的HTML代码编写，手写符合W3C标准的代码</p>
+                        <div class="social-icons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <div class="team-img">
+                            <img src="imgaes/html5 css3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 team-grids wow fadeInUp animated" data-wow-delay=".5s">
+                        <h5>javaScript</h5>
+                        <p><br>
+                            用JS完成常见的前端功能特效 用AJAX读取后台数据。</p>
+                        <div class="social-icons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <div class="team-img">
+                            <img src="imgaes/js.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 team-grids wow fadeInUp animated" data-wow-delay=".5s">
+                        <h5>jQuery</h5>
+                        <p><br>能运用JQuery框架实现网页常用特效，掌握面向对象编程思想</p>
+                        <div class="social-icons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <div class="team-img">
+                            <img src="imgaes/jQuery.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        
+        </section  >
+        <div id="setContact" class="call bj">
+            <h2>联系我</h2>
+            <div class="experience">
+                <p>
+                    <span>姓名 : 卢圣勤 <br></span>
+                    
+                    <span>职位 : web前端初级工程师 <br></span>  
+                    
+                    <span>邮箱 : 2015941587@qq.com <br></span>
+                    
+                    <span>手机 : 11185318623<br></span>
+                    
+                    <span>微信 : 11185318623 <br></span>
+                    
+                </p>
+                 
+            </div>
+        </div>
+    <!-- </div> -->
+
+    <script src="//at.alicdn.com/t/font_1662063_anen8j54h45.js"></script>
+    
+
+</body>
+</html>
